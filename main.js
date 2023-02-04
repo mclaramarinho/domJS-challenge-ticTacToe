@@ -153,11 +153,11 @@ var xo; //in use
 
 (document.querySelectorAll(".box")).forEach(item => {
 
-    item.addEventListener("touchstart", function(){ //adds an event listener to each grid box
+    item.addEventListener("touchend", function(){ //adds an event listener to each grid box
 
 
         var resetButton = document.querySelector(".btn-danger");
-        resetButton.addEventListener("touchstart", function(){
+        resetButton.addEventListener("touchend", function(){
             window.location.reload();
         });
         
