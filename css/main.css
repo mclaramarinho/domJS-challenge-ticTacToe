@@ -1,0 +1,73 @@
+body {
+  background-color: #fed88f;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Unbounded";
+  font-size: 4rem;
+  margin-top: 40px;
+}
+
+h3, h5 {
+  font-family: "Montserrat";
+}
+
+.turns-img {
+  width: 60px;
+}
+
+.container {
+  margin-top: 50px;
+  width: 400px;
+  border: 2px solid black;
+}
+
+.row-images {
+  margin-top: 10px;
+  border-top: 1px solid black;
+  padding-top: 5px;
+}
+
+.col1 {
+  border-right: 1px solid black;
+}
+
+#img-o {
+  opacity: 50%;
+}
+
+.game-container {
+  width: 450px;
+  height: 450px;
+  margin: 50px auto 40px;
+}
+
+.col-4 {
+  width: 150px;
+  height: 150px;
+}
+
+.play-img {
+  width: 100px;
+}
+
+#box-1, #box-4, #box-7 {
+  border-right: 2px solid black;
+}
+
+#box-2, #box-5, #box-8 {
+  border-right: 2px solid black;
+}
+
+.row-1, .row-2 {
+  border-bottom: 2px solid black;
+}
+
+.row-1, .row-2, .row-3 {
+  width: 450px;
+}
+
+.reset-button {
+  margin-top: 30px;
+}/*# sourceMappingURL=main.css.map */
